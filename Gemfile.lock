@@ -1,0 +1,35 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    aggregate (0.2.2)
+    coderay (1.1.0)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
+    gems (0.8.3)
+    librato-metrics (1.5.0)
+      aggregate (~> 0.2.2)
+      faraday (~> 0.7)
+      multi_json
+    method_source (0.8.2)
+    multi_json (1.11.0)
+    multipart-post (2.0.0)
+    pry (0.10.1)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    pry-doc (0.6.0)
+      pry (~> 0.9)
+      yard (~> 0.8)
+    rake (10.4.2)
+    slop (3.6.0)
+    yard (0.8.7.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  gems
+  librato-metrics
+  pry
+  pry-doc
+  rake
